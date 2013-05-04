@@ -21,21 +21,20 @@ base_path: http://potomak.github.io/techpeaks
 
 <body>
   <div id="container">
-    <header class="wrapper clearfix">
-      <h1 id="title"><a href="{{ page.base_path }}">TechPeaks Log</a></h1>
-    </header>
+    {{ content }}
 
-    <div id="main" class="wrapper clearfix">
-      {{ content }}
-    </div>
-
-    <footer class="wrapper">
+    <footer>
       <p>
         Giovanni Cappellotto
         <a href="http://twitter.com/johnnyaboh">@johnnyaboh</a>
       </p>
     </footer>
   </div>
-  <div id="forest"></div>
+
+  <canvas id="peaks"></canvas>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+  <script src="{{ page.base_path }}/javascripts/triangulate.js"></script>
+  <script src="{{ page.base_path }}/javascripts/peaks.js"></script> 
 </body>
 </html>

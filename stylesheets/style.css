@@ -1,3 +1,9 @@
+html, body {
+  width:  100%;
+  height: 100%;
+  margin: 0px;
+}
+
 body {
   font-family: 'Vollkorn', serif;
   color: #333333;
@@ -49,9 +55,8 @@ h1 a:visited {
 }
 
 p {
-  line-height: 22px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  line-height: 24px;
+  margin: 24px 0;
 }
 
 ul, ol {
@@ -71,6 +76,10 @@ ul.unstyled,
 ol.unstyled {
   list-style-type: none;
   padding-left: 0;
+}
+
+nav {
+  font-family: 'Lato', sans-serif;
 }
 
 li {
@@ -122,49 +131,6 @@ q {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 1.4em;
-} 
-
-div#container {
-  margin: 0 auto 300px;
-  padding: 20px;
-  width: 640px;
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-div#main {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-div#forest {
-  position: fixed;
-  bottom: 0;
-  background-image: url(../images/forest.png);
-  background-repeat: repeat-x;
-  width: 100%;
-  height: 300px;
-  z-index: -1;
-}
-
-@media screen and (min-width:0) and (max-width:825px) {
-  div#container {
-    margin: 0 auto 100px;
-    padding: 20px;
-    width: auto;
-    max-width:100%;
-  }
-
-  div#forest {
-    background-size: 300px;
-    height: 100px;
-  }
-}
-
-.wrapper {}
-
-.block {
-  overflow: hidden;
-  clear: both;
 }
 
 article header {
@@ -178,6 +144,31 @@ footer {
 
 footer * {
   display: inline;
+}
+
+.clearfix {
+  overflow: hidden;
+  clear: both;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 560px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (min-width:0) and (max-width:825px) {
+  #container {
+    width: auto;
+    max-width:100%;
+  }
+}
+
+#peaks {
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
 }
 
 #disqus_thread {
