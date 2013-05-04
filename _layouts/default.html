@@ -1,7 +1,3 @@
----
-base_path: http://potomak.github.io/techpeaks
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +6,9 @@ base_path: http://potomak.github.io/techpeaks
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:700|Vollkorn:400italic,400,700" />
-  <link rel="stylesheet" type="text/css" href="{{ page.base_path }}/stylesheets/reset.css" />
-  <link rel="stylesheet" type="text/css" href="{{ page.base_path }}/stylesheets/style.css" />
-  <link rel="alternate" type="application/rss+xml" href="{{ page.base_path }}/atom.xml" title="TechPeaks Log" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/reset.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/stylesheets/style.css" />
+  <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/atom.xml" title="TechPeaks Log" />
   <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -34,7 +30,7 @@ base_path: http://potomak.github.io/techpeaks
   <canvas id="peaks"></canvas>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-  <script src="{{ page.base_path }}/javascripts/triangulate.js"></script>
-  <script src="{{ page.base_path }}/javascripts/peaks.js"></script> 
+  <script src="{{ site.url }}/javascripts/triangulate.js"></script>
+  <script src="{{ site.url }}/javascripts/peaks.js"></script> 
 </body>
 </html>

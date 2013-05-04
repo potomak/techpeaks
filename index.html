@@ -5,14 +5,14 @@ description: A log about my adventure at TechPeaks.
 ---
 
 <header>
-  <h1><a href="{{ page.base_path }}">TechPeaks Log</a></h1>
+  <h1><a href="{{ site.url }}">TechPeaks Log</a></h1>
 </header>
 
 <div>
   <ul class="unstyled">
     {% for post in site.posts %}
       <li>
-        <h4><a href="{{ page.base_path }}{{ post.url }}">{{ post.title }}</a></h4>
+        <h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date: "%B %e, %Y" }}</time>
       </li>
     {% endfor %}
