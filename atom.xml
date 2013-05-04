@@ -7,9 +7,9 @@ layout: nil
  
   <title>TechPeaks Log</title>
   <link href="{{ site.url }}/atom.xml" rel="self"/>
-  <link href="{{ site.url }}"/>
+  <link href="{{ site.url }}/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}</id>
+  <id>{{ site.url }}/</id>
   <author>
     <name>TechPeaks Log</name>
     <email>potomak84@gmail.com</email>
