@@ -1,8 +1,8 @@
 var PEAKS = PEAKS || {};
 
 PEAKS.Main = (function() {
-  var canvas  = $("#peaks"),
-      ctx = canvas.get(0).getContext("2d"),
+  var canvas  = document.getElementById('peaks'),
+      ctx = canvas.getContext("2d"),
       peakLayers = [
         {
           vertexes: 2,
@@ -56,10 +56,10 @@ PEAKS.Main = (function() {
   }
 
   function clearCanvas() {
-    ctx.clearRect(0, 0, canvas.width(), canvas.height());
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.globalAlpha = 1;
     ctx.fillStyle = "#FEFEFE";
-    ctx.fillRect(0, 0, canvas.width(), canvas.height());
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
   }
 
   function drawTriangle(triangle, color) {
