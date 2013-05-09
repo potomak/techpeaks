@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why am I writing this blog?
-description: Some of the reasons because I'm writing the TechPealks Log.
+description: Some of the reasons because I'm writing the TechPeaks Log.
 ---
 
 A couple of days ago I met [Michele](http://twitter.com/realfuzzy), a friend of mine, he's a programmer. We spoke about our new projects and I told him about my successful application to TechPeaks acceleration program. I told him also about the project of this blog and he came out with a lot of interesting observations.
