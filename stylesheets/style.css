@@ -126,11 +126,15 @@ pre > code {
   white-space: pre;
 }
 
-q {
+q, blockquote {
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 1.4em;
+
+  font-style: italic;
+  border-left: 6px solid #EAEAEA;
+  padding-left: 15px;
 }
 
 article header {
