@@ -137,6 +137,10 @@ q, blockquote {
   padding-left: 15px;
 }
 
+hr {
+  border: 1px solid #EAEAEA;
+}
+
 article header {
   margin-bottom: 20px;
 }
@@ -148,6 +152,14 @@ footer {
 
 footer * {
   display: inline;
+}
+
+.footnotes {
+  font-style: italic;
+}
+
+.footnotes p {
+  margin-bottom: 6px;
 }
 
 .clearfix {
