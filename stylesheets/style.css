@@ -138,7 +138,18 @@ q, blockquote {
 }
 
 hr {
-  border: 1px solid #EAEAEA;
+  height: 1px;
+  margin: 2em 0 3em 2em;
+  text-align: center;
+  border-color: #777;
+  border-width: 0;
+  border-style: dotted;
+  font-style: normal;
+}
+
+hr:after {
+  content: "•••";
+  letter-spacing: 2em;
 }
 
 article header {
