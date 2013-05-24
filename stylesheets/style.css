@@ -197,7 +197,3 @@ footer * {
   bottom: 0;
   z-index: -1;
 }
-
-#disqus_thread {
-  margin: 50px auto;
-}
