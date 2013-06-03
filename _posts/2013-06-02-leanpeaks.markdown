@@ -14,6 +14,6 @@ Michele won with Climb Guru, a service to announce weather to climbers. He also 
 
 A great advice from Evan I forgot to mention earlier: *"you fail yourself if you don't help at least one person every day"*.
 
-We had an [aperitif] with mentors from the Lean Startup Machine. I met [Toti](http://twitter.com/totididio), a friend of Damiano who is running his own startup in Palermo.
+We had an aperitif with mentors from the Lean Startup Machine. I met [Toti](http://twitter.com/totididio), a friend of Damiano who is running his own startup in Palermo.
 
 We went to eat some tasty Trentino food and that we headed to the first TechPeaks unofficial party. We were chatting, drinking and dancing but somebody called the police so we had to stop the party. I had fun, we should repeat the experiment!
