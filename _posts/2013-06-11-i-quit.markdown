@@ -1,0 +1,13 @@
+---
+layout: post
+title: I quit
+description: Do always what you want.
+---
+
+After two weeks only I decided to quit the program.
+
+I didn't feel comfortable and I didn't form a team, these are two of the main reasons why I'm leaving TechPeaks.
+
+I'd like to thanks Alessandro and Paolo for their work, but maybe I wasn't cut out to attend the program.
+
+I'll work on *issuehunter* anyway from [Meme](http://memecoworking.com) because I think that the problem I'm trying to solve deserves a solution. If you want to get updates follow [@issuehunter](http://twitter.com/issuehunter).
